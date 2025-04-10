@@ -1,0 +1,18 @@
+# ターミナルでcode ~/.bashrcと入力すると開くファイルに以下を記入
+# ia のaの部分は自分のクラスのアルファベットに変更すること
+c() {
+  var1=$1
+  var2=$2
+  var3=$3
+  if [[ -z "$var3" || "$var3" == "0" ]]; then
+    var3=$var2
+  fi
+  /ced-home/staff/q/q${var1}/check${var2}-ia /protu/Q_ensyu/q${var1}/q${var1}-${var3}.c
+}
+sc() {
+  var1=$1
+  if [[ -z "$var1" || "$var1" == "0" ]]; then
+    var1=1
+  fi
+  /ced-home/staff/q/q${var1}/score-ia
+}
