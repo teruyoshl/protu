@@ -1,0 +1,6 @@
+c 1 2 3で
+/ced-home/staff/q/q1/check2-ia /protu/Q_ensyu/q1/q1-3.ced
+を略記できる。
+第3引数は省略可能で、その場合第2引数の値が入る。
+
+scで点数チェックができる
