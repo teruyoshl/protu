@@ -46,7 +46,5 @@ int main(void) {
   iarray_read(a, n);
   int *b = ivec_create_swap(a);
   iarray_print(b, b[0]);
-  free(a);
-  free(b);
   return 0;
 }
