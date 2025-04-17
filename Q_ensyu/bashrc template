@@ -16,3 +16,11 @@ sc() {
   fi
   /ced-home/staff/q/q${var1}/score-ia
 }
+syusseki() {
+  var1=$1
+  /ced-home/staff/q/q${1}/shusseki-ia
+}
+shusseki() {
+  var1=$1
+  /ced-home/staff/q/q${1}/shusseki-ia
+}
